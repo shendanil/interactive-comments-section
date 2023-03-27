@@ -3,7 +3,7 @@ import data from '../../data.json'
 import Comment from './Comment'
 import AddComment from './AddComment'
 
-function CommentSectionTest() {
+function CommentSection() {
     
     const [commentsArr, setCommentsArr] = useState(data.comments)
 
@@ -381,4 +381,4 @@ function CommentSectionTest() {
     )
 }
 
-export default CommentSectionTest
+export default CommentSection
